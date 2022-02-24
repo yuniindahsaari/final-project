@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "incremental": true,
+        "target": "es2017",
+        "module": "amd",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "outFile": "../public/build/client/bundle.js",
+        "strict": true,
+        "sourceMap": true,
+        "lib": [ "dom", "dom.iterable", "es2017" ],
+        "allowJs": true,
+        "types": [ ]
+    },
+    "watchOptions": {
+        "watchFile": "useFsEvents",
+        "watchDirectory": "useFsEvents",
+        "fallbackPolling": "dynamicPriority"
+    },
+    "include": [
+        "../js-libs/almond.js",
+        "../js-libs/cbor.js",
+        "../js-libs/ziplib/*.js",
+        "../js-libs/jquery.min.js",
+        "../js-libs/bootstrap-notify.js",
+        "./**/*"
+    ],
+    "exclude": ["build", "node_modules", "coverage"]
+}

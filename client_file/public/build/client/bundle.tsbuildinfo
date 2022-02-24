@@ -1,0 +1,69 @@
+{
+  "bundle": {
+    "commonSourceDirectory": "../../..",
+    "sourceFiles": [
+      "../../../js-libs/almond.js",
+      "../../../js-libs/cbor.js",
+      "../../../js-libs/ziplib/zip.js",
+      "../../../js-libs/jquery.min.js",
+      "../../../js-libs/bootstrap-notify.js",
+      "../../../client/settings.ts",
+      "../../../client/models.ts",
+      "../../../client/sensors/isensor.ts",
+      "../../../client/sensors/camera.ts",
+      "../../../client/messages.ts",
+      "../../../client/utils.ts",
+      "../../../client/uploader.ts",
+      "../../../client/typed-event-emitter.ts",
+      "../../../client/classifier.ts",
+      "../../../client/classification-loader.ts",
+      "../../../client/notify.ts",
+      "../../../client/camera-collection-views.ts",
+      "../../../client/sensors/accelerometer.ts",
+      "../../../client/sensors/microphone.ts",
+      "../../../client/moving-average-filter.ts",
+      "../../../client/classification-views.ts",
+      "../../../client/find-segments.ts",
+      "../../../client/collection-keyword.ts",
+      "../../../client/remote-mgmt.ts",
+      "../../../client/collection-views.ts",
+      "../../../client/microphone-collection-views.ts",
+      "../../../client/init.ts"
+    ],
+    "js": {
+      "sections": [
+        {
+          "pos": 0,
+          "end": 13,
+          "kind": "prologue",
+          "data": "use strict"
+        },
+        {
+          "pos": 15,
+          "end": 366337,
+          "kind": "text"
+        }
+      ],
+      "sources": {
+        "prologues": [
+          {
+            "file": 0,
+            "text": "",
+            "directives": [
+              {
+                "pos": -1,
+                "end": -1,
+                "expression": {
+                  "pos": -1,
+                  "end": -1,
+                  "text": "use strict"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "version": "4.1.3"
+}
